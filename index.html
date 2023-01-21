@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Biker Zone using Bootstrap</title>
+    <link rel="shortcut icon" href="images/logo/images.png" type="image/x-icon">
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- main css file -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-teritiary">
+            <div class="container">
+                <a href="#" class="navbar-brand"><img class="w-25" src="images/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-2">
+                        <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="navbar-item dropdown"><a href="#" class="nav-link dropdown-toggle role=button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Honda</a></li>
+                                <li><a class="dropdown-item" href="#">Suzuki</a></li>
+                                <li><a class="dropdown-item" href="#">Discover</a></li>
+                                <li><a class="dropdown-item" href="#">Apache</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li>
+                        <form action="" class="d-flex" role="search">
+                            <input type="search" class="form-control me-2" placeholder="Search">
+                            <button class="btn btn-outline-success" type="submit">Submit</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner-corousel container bg-danger-subtle p-5 rounded bg-opacity-75">
+            <div class="row">
+                <div class="banner-content col d-flex justify-content-center align-items-center">
+                    <div class="banner-content-align">
+                        <h3>Honda CBR 300R</h3>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit
+                            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="bg-warning border-0 p-2 rounded" type="button">Purchase</button>
+                    </div>
+                </div>
+                <div class="banner-img col">
+                    <img class="w-100" src="images/bike-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="popular-bikes text-center container mt-5">
+            <h3>Fetured Bikes In This Year</h3>
+            <p>Best bike collection</p>
+            <hr class="w-25 mx-auto border border-danger">
+            <div class="biker-zone row mt-5">
+                <div class="col">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-75" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="letest-news mt-5 container">
+            <h3 class="text-center">Letest News From Biker Zone</h3>
+            <div class="row row-cols-md-3 mt-5 g-5">
+                <div class="col">
+                    <div class="card p-1">
+                        <img class="w-75" src="images/bike-3.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Best bike collection</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur
+                            consequatur ut quas. Odio cupiditate laborum eaque vero facilis omnis eligendi, eum
+                            perferendis similique voluptatem alias quia unde modi dicta?</p>
+                            <button class="btn btn-danger">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-3.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Best bike collection</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur
+                            consequatur ut quas. Odio cupiditate laborum eaque vero facilis omnis eligendi, eum
+                            perferendis similique voluptatem alias quia unde modi dicta?</p>
+                            <button class="btn btn-danger">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-3.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Best bike collection</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur
+                            consequatur ut quas. Odio cupiditate laborum eaque vero facilis omnis eligendi, eum
+                            perferendis similique voluptatem alias quia unde modi dicta?</p>
+                            <button class="btn btn-danger">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- bootstrap js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
